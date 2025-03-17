@@ -1,0 +1,92 @@
+// // 1. 🌍 Introduction to JavaScript
+// // A scripting language used to create dynamic website .
+// // run in the browser (also in nodejs on server)
+// // used fpr interactivity , animation , api calls 
+
+// // alert("Hello wordl");
+
+// // 2. 🧮 Variables/& Data Types
+// // ✅ var, let, const
+// // var: function scoped (old way)
+// // let: block scoped (modern & preferred)
+// // const: constant values
+// // ✅ Data Types:
+// // String, Number, Boolean
+// // Null, Undefined, Symbol (advanced)
+// // Object, Array, Function (non-primitive)
+
+// // let name= "ayush";
+// // const age = 22;
+// // let isStudent = true;
+
+
+// // 3. ➕ Operators
+// // Arithmetic: +, -, *, /, %
+// // Assignment: =, +=, -=
+// // Comparison: ==, ===, !=, >, <
+// // Logical: &&, ||, !
+// // Type: typeof
+// // let a= 10;
+// // let b= 5;
+// // console.log(a + b); // 15
+
+
+// // 4. 📦 Conditional Statements
+
+// let score= 80;
+// if(score>50){
+//     console.log("Pass");
+// }
+// else{
+//     console.log("Fail");
+// }
+
+// // ✅ switch-case
+// // let day = 2;
+// // switch(day){
+// //     case 1:
+// //         console.log("Monday");
+// //         break;
+// //     case 2:
+// //         console.log("Tuesday");
+// //         break;
+    
+// //     default: console.log("Enter a valid day");    
+// // }
+
+// // 5. 🔁 Loops
+// // for(int i=0;i<=5;i++){
+// //     console.log(i);
+// // }
+
+// // let i = 0;
+// // while(i<=5){
+// //     console.log(i);
+// //     i++;
+// // }
+
+
+// // 6. 📦 Arrays & Objects (Intro)
+// // let fruit=["apple", "banana", "mango"]
+// // console.log(fruit[0]);
+
+// // ✅ Object:
+
+// let object = {
+//     name : "Ayush",
+//     age : 22,
+//     isStudent : true
+// }
+
+// console.log(object)
+// 7. 🧠 Functions
+
+// function greet(name){
+//     console.log("Hello", name);
+// }
+// greet("Ayush");
+
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(5, 10));
