@@ -1,0 +1,52 @@
+// function outer(){
+//     let count =0;
+//     return function inner(){
+//         count++;
+//         console.log(count);
+//     };
+// }
+
+// let closure = outer();
+// closure(); // Outputs: 1
+// closure(); // Outputs: 2
+
+// GamepadHapticActuator(()={
+//     fetchSomething(()=>{
+//         saveIt(()=>{
+//       // 🙄 nesting nightmare
+
+//         });
+//     });
+// });
+
+// const user= {name:"ayush",age:23};
+// const{name}=user;
+
+// ✅ 2.2 — Spread & Rest Operator
+// const arr1=[1,2];
+// const arr2=[...arr1,3];
+// function sum(...nums){
+//     return nums.reduce((a,b)=> a+b,0)
+// }
+// console.log(sum(1,2,3,4,5)); // Outputs: 15
+
+
+// const user = null;
+// console.log(user?.name);
+// console.log(user?.user??"guest");
+
+// const nums = [1,2,3];
+// const double = nums.map(n=>n*2);
+// const even = nums.filter(n=>n%2===0)
+// const total = nums.reduce((a,b)=>a+b,0);
+class user{
+    constructor(name){
+        this.name=name;
+
+    }
+    greet(){
+        console.log(`Hello, my name is ${this.name}`);
+    }
+}
+const user = new User("Ayush");
+user.greet();
