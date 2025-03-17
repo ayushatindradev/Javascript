@@ -1,0 +1,83 @@
+// // // // ✅ Stage 2: Intermediate JavaScript
+// // // // 1. 🔁 Array Methods (Super Important!)
+
+// // // // let nums= [1,2,3,4];
+// // // // let doubled = nums.map(n=>n*2);
+// // // // console.log(doubled); // [2, 4, 6, 8]
+
+// // // // 2. 📦 Object Manipulation
+// // // // let user = 
+// // // // {
+// // // //     user:"Ayush",
+// // // //     age:22,
+// // // //     address:{
+// // // //         street:"123 Main St",
+// // // //         city:"New York"
+// // // //     }
+// // // // }
+// // // let user = {
+// // //     user: "Ayush",
+// // //     age: 22,
+// // //     address: {
+// // //         street: "123 Main St",
+// // //         city: "New York"
+// // //     }
+// // // }
+// // // // ✅ Looping over objects:
+// // // // for(let key in user){
+// // // //     console.log(key+" : "+user); 
+// // // // }
+
+
+// // // const add=(a,b)=>a+b
+
+// // // console.log(add(1,2));
+
+// // // 4. 🧠 Scope, Hoisting, and Closures (light version)
+
+// // // let a= 5;
+// // // function test(){
+// // //     let b = 10;
+// // // }
+
+// // var a = 10;
+// // console.log(a);
+// // // var a = 10;
+
+
+// // function outer(){
+// //     let name= "ayush";
+// //     function inner(){
+// //         console.log(name);
+// //     }
+// //     inner();
+// // }
+// // outer();
+
+// // 5. 🌐 DOM Manipulation (Basic)
+
+// // document.getElementById("test");
+// // document.getElementById(".btn");
+
+// document.getElementById("title").innerText="Hello world";
+
+// let p = document.createElement("p");
+// p.innertext= "this is ayusj";
+// document.body.appendChild(p);
+
+// // 6. 🖱️ Event Handling
+// document.getElementById("btn").addEventListener("click", function(){
+//     alert("Hello world!");
+// });
+
+// click
+// submit
+// input
+// keydown
+
+function validate(){
+    let name= document.getElementById("name").value;
+    if(name==""){
+        alert("Name is required");
+    }
+}
