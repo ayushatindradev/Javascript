@@ -1,0 +1,64 @@
+// what is javascript?
+// Javascript is  a proggramming languaga used to make website interactive . It runs in web browser and allows you yo control things like buttun  forms and Image and mommmre
+// // how to run a javascript 
+// you can write a js directly in brower console. To open it right click on any webpage and select inpeact ->console . You can also run js using nodejs 
+
+// Syntax and data Type 
+// let , var and consare used to declear variatbles 
+// .
+// let is used when the value can changed latter .
+// const is used when the value will never be changed 
+
+let name = 'Ayush';
+const age = 20;
+
+// primitive data types
+// string ("eg. Hello World")
+// number eg 099828
+// boolean - > true / false
+// undefined= variable without value 
+// null -> explicitly no value
+// symbol -> a unique value used for object properties
+// bigint= large integerss.
+
+
+// // Arthmetic operations
+// let x = 5 + 3;
+// let y = 10 - 3;
+
+// let and =const 
+
+// comparision operator 
+let result = 6>3;
+
+// control flow
+// let temerature= 30;
+// if(temerature>25){
+//     console.log('It is hot outside');
+// }
+// else{
+//     console.log('It is cold outside');
+// }
+
+// // loops 
+// for(let i=0; i<10; i++){
+//     console.log(i);
+// }
+
+// function greet(name){
+//     console.log('Hello'+ name);
+// }
+// greet('Ayush');
+
+// // array 
+// let fruits= ["apple" ,"orange","orange","orange","orange","orange","orange","orange","orange","orange"];
+// console.log(fruits[0]);
+// person 
+let person = {
+    name :"Ayush ",
+    age : 20,
+    greet : function(){
+        console.log('Hello'+ this.name);
+    }
+}
+console.log(person.age);
